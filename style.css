@@ -12,7 +12,8 @@
   --color3: #000000;
   --color4: #151a41;
   --color5: #ff0099;
-  --color6: #c5cbd1;
+  --color6: #e9edf1;
+  --color7: #bec8d2;
   --font-family1: "Open Sans", sans-serif;
   --font-family2: "Poppins", sans-serif;
 }
@@ -51,7 +52,7 @@ body {
   width: 25px;
   height: 25px;
   background-color: var(--color2);
-  color: var(--color6);
+  color: var(--color7);
 }
 
 .cardfigma__text {
@@ -62,12 +63,29 @@ body {
   width: 80%;
 }
 
+.cardfigma__divbutton {
+  margin-top: 1.5rem;
+}
+
 .cardfigma__button {
   background-color: var(--color2);
   border: 1px solid var(--color6);
   font-family: var(--font-family1);
   font-size: 0.8rem;
   font-weight: 900;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  border-radius: 3px;
+}
+
+.cardfigma__button:hover {
+  cursor: pointer;
+  background-color: var(--color5);
+  color: var(--color2);
+  border: none;
+}
+
+.button5 {
+  background-color: var(--color5);
+  color: var(--color2);
+  border: none;
 }
